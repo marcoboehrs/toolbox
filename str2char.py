@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import sys;
+import sys
 
 def showUsage():
     sys.exit('Usage:\n'
@@ -27,7 +27,6 @@ if (len(sys.argv) != 3):
 if (sys.argv[1] == '-u'):
     print(urlencode(sys.argv[2]))
     exit()
-
 
 if (sys.argv[1] == '-j'):
     print(javascriptCharCode(sys.argv[2]))
